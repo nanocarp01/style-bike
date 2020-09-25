@@ -1,5 +1,5 @@
 *{
-    background-color: #235f;
+    background-color: #235F;
     margin: 0;
     padding: 0;
     
@@ -113,11 +113,13 @@ h1, h2, h3{
     grid-row-gap:  20px;
 }
 .tipos div{
-    padding: 15px;
+     padding: 15px;
+    margin: 5px;;
      box-shadow: 0 0 5px #33ffff;    
     
 }
 .tipos p{
+    
     text-align: center;
     color: #fff;
     
@@ -132,6 +134,9 @@ h1, h2, h3{
     color: #5DADE2;
     list-style: none;
     
+}
+.e4{
+    grid-column: 1/4;
 }
 
 
