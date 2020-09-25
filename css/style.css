@@ -36,6 +36,7 @@
     border-radius: 10px;
     box-shadow: 0 0 5px #33ffff;
     margin: 5px;
+    
    
     
 }
@@ -220,8 +221,6 @@ margin: 15px;
 
 }
 
-
-
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -312,13 +311,39 @@ footer p{
     text-align: center;
     background-color: #000;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
+    
+    
 }
 .social{
+    
     background-color: #000;
     text-align: center;
+    
 }
+.social p{
+    margin: 0 15px 15px 15px;
+    box-shadow: 0 0 15px #33ffff; 
+    border-radius: 50%;
+    font-size: 25px;
+}
+.fa-facebook:hover{
+    box-shadow: 0 0 20px #3b5998; 
+    color: #3b5998;
+    font-size: 35px;
+}
+.fa-instagram:hover{
+    box-shadow: 0 0 20px #FE3FB6; 
+    color: #FE3FB6;
+    font-size: 35px;
+}
+.fa-whatsapp:hover{
+    box-shadow: 0 0 20px #4dc247; 
+    color: #4dc247;
+    font-size: 35px;
+}
+/*Fin Footer*/
 
 
 @media(min-width: 700px){
@@ -327,8 +352,19 @@ footer p{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
     
-  
+    .e1,.e2,.e3{
+       grid-column: 1/4;
+    }
+    
+    
     
 }
 
