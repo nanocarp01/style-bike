@@ -312,9 +312,7 @@ footer p{
     background-color: #000;
     color: #fff;
     padding: 15px;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
 .social{
     
@@ -322,26 +320,42 @@ footer p{
     text-align: center;
     
 }
-.social p{
+.social ul{
+    display: inline;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
+.social ul li{
+     display: inline;
+    text-align: center;
+    background-color: #000;
+}
+.social ul li a{
+    color: #fff;
     margin: 0 15px 15px 15px;
-    box-shadow: 0 0 15px #33ffff; 
+    box-shadow: 0 0 30px #33ffff; 
     border-radius: 50%;
     font-size: 25px;
+    text-decoration: none;
 }
 .fa-facebook:hover{
-    box-shadow: 0 0 20px #3b5998; 
+    box-shadow: 0 0 30px #3b5998; 
     color: #3b5998;
-    font-size: 35px;
+    font-size: 30px;
 }
 .fa-instagram:hover{
-    box-shadow: 0 0 20px #FE3FB6; 
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px #FE3FB6; 
     color: #FE3FB6;
-    font-size: 35px;
+    font-size: 30px;
 }
 .fa-whatsapp:hover{
-    box-shadow: 0 0 20px #4dc247; 
+    box-shadow: 0 0 30px #4dc247; 
     color: #4dc247;
-    font-size: 35px;
+    font-size: 30px;
 }
 /*Fin Footer*/
 
@@ -360,12 +374,36 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 /* Styles */
     
-    .e1,.e2,.e3{
-       grid-column: 1/4;
+   .tipos{
+    margin:15px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap:10px;
+    grid-row-gap:  20px;
+       
+}
+.tipos div{
+     padding: 5px;
+    margin: 5px;
+     box-shadow: 0 0 5px #33ffff;    
+    
+}
+
+.tipos h3{
+    color: #5DADE2;
+}
+    .e4{
+        grid-column: 1/3;
     }
+ 
     
-    
-    
+
+
+.tipos img{
+    width: 50%;
+    height: 80%;
+    padding: 5px;
+}
 }
 
 
