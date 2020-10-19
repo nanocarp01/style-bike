@@ -10,7 +10,7 @@ while (sessionStorage.length == 0 && nombre.length != null) {
         alert('Ingrese su nombre');
         ingresar();
     }
-    while (nombre.length == "");
+    while (nombre.length == null);
 
     sessionStorage.setItem("nombre", nombre);
 }
