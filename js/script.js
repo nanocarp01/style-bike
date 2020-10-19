@@ -3,7 +3,7 @@ var nombre = String;
 function ingresar(string) {
     nombre = prompt('Ingrese su nombre');
 }
-
+ingresar();
 while (sessionStorage.length == 0 && nombre.length != null) {
     
     do {
@@ -11,7 +11,7 @@ while (sessionStorage.length == 0 && nombre.length != null) {
         ingresar();
     }
     while (nombre.length == "");
-ingresar();
+
     sessionStorage.setItem("nombre", nombre);
 }
 
