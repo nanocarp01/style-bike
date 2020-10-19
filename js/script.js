@@ -11,7 +11,7 @@ while (sessionStorage.length == 0 && nombre.length != null) {
         ingresar();
     }
     while (nombre.length == "");
-        ingresar();
+    
     sessionStorage.setItem("nombre", nombre);
 }
 
