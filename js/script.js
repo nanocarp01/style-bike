@@ -5,10 +5,10 @@ function ingresar(string) {
 }
 
 while (sessionStorage.length == 0 && nombre.length != null) {
-    
+    ingresar();
     do {
         alert('Ingrese su nombre');
-        ingresar();
+        
     }
     while (nombre.length == "");
     
