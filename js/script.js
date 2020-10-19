@@ -6,13 +6,13 @@ function ingresar(string) {
 
 while (sessionStorage.length == 0 && nombre.length != null) {
     
-    do {
+ingresar();
+    sessionStorage.setItem("nombre", nombre);
+     do {
         alert('Ingrese su nombre');
         ingresar();
     }
     while (nombre.length == "");
-ingresar();
-    sessionStorage.setItem("nombre", nombre);
 }
 
 document.getElementById("nombre").innerHTML = "Hola " + sessionStorage.nombre + " vamos a incursionar en el";
