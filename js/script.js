@@ -1,18 +1,19 @@
 var nombre = String;
 
-function ingresar(string) {
+function ingresar() {
     nombre = prompt('Ingrese su nombre');
 }
-ingresar();
-while (sessionStorage.length == 0 && nombre.length != null) {
-    
+
+while (sessionStorage.length == 0 && nombre.length != 0) {
+
+
     do {
         alert('Ingrese su nombre');
         ingresar();
     }
-    while (nombre.length == null);
-
+    while (nombre.length == 0);
     sessionStorage.setItem("nombre", nombre);
 }
+
 
 document.getElementById("nombre").innerHTML = "Hola " + sessionStorage.nombre + " vamos a incursionar en el";
