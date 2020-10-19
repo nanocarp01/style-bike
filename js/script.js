@@ -4,7 +4,7 @@ function ingresar(string) {
     nombre = prompt('Ingrese su nombre');
 }
 
-while (sessionStorage.length == 0 && nombre.length != null) {
+while (sessionStorage.length == 0) {
     
 ingresar();
     sessionStorage.setItem("nombre", nombre);
