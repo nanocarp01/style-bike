@@ -12,7 +12,7 @@ ingresar();
         alert('Ingrese su nombre');
         ingresar();
     }
-    while (nombre.length == "");
+    while (nombre.length == "" && sessionStorage.length == 0);
 }
 
 document.getElementById("nombre").innerHTML = "Hola " + sessionStorage.nombre + " vamos a incursionar en el";
