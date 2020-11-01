@@ -1,478 +1,470 @@
-*{
-    background-color: #235F;
-    margin: 0;
-    padding: 0;
-font-family: 'Roboto', sans-serif;
+ * {
+     background-color: #235F;
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+ }
+ /* Menu */
  
-}
-
-
-
-/* Menu */
-
-.logo img{
-    width: 100%;
-    max-width: 50px;
-    float: left;
-    padding-top: 15px; 
-    padding-right: 15px;
-    padding-left: 5px;
-    border-radius: 25%;
-}
-.logo{
-    float: left;
-    color: #fff;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 70px;
-    padding-left: 20px;
-     
-    
-}
-
-.menu{
-    background: #235F;
-    white-space: nowrap;
-    border:  #45ff 1px solid;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #33ffff;
-    margin: 5px;
-    
-   
-    
-}
-.menu:after{
-    content: '';
-    clear: both;
-    display: table;
-}
-
-.menu ul{
-    float: right;
-    list-style: none;
-    margin-right: 40px;
-    position: relative;
-    
-}
-.menu ul li{
-    float: left;
-    display: inline-block;
-    background:#235F;
-    margin: 0 5px;   
-}
-
-.menu ul li a{
-    color: #fff;
-    text-decoration: none;
-    line-height: 70px;
-    font-size: 18px;
-    padding: 8px 15px;
-    
-}
-.menu ul li a:hover{
-    color: cyan;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #33ffff, 
-                0 0 5px #66ffff; 
-    
-}
- .icon , #btn{
-    display: none;
-}
-/* Fin Menu */
-
-/* banner ciclistas */
-
-.fondo img{
-    width: 100%;
-    height: auto;     
-}
-
-/* Fin banner ciclista */
-
-h1, h2, h3{
-    text-align: center;
-    color: #fff;
-}
-
-/* Article */
-.section{
-    float: center;
-    margin: 10px 45px 45px 45px;
-    padding: 25px;
-    color: #FFF;
-    font-size: 18px;
-    box-shadow: 0 0 5px #33ffff;      
-}
-/* Fin Article */
-
-/* Tipos con Grid*/
-.tipos{
-    margin:15px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    column-gap:10px;
-    grid-row-gap:  20px;
-}
-.tipos div{
+ .logo img {
+     width: 100%;
+     max-width: 50px;
+     float: left;
+     padding-top: 15px;
+     padding-right: 15px;
+     padding-left: 5px;
+     border-radius: 25%;
+ }
+ 
+ .logo {
+     float: left;
+     color: #fff;
+     font-size: 27px;
+     font-weight: 600;
+     line-height: 70px;
+     padding-left: 20px;
+ }
+ 
+ .menu {
+     background: #235F;
+     white-space: nowrap;
+     border: #45ff 1px solid;
+     border-radius: 10px;
+     box-shadow: 0 0 5px #33ffff;
+     margin: 5px;
+ }
+ 
+ .menu:after {
+     content: '';
+     clear: both;
+     display: table;
+ }
+ 
+ .menu ul {
+     float: right;
+     list-style: none;
+     margin-right: 40px;
+     position: relative;
+ }
+ 
+ .menu ul li {
+     /*float: left;*/
+     display: inline-block;
+     background: #235F;
+     margin: 0 5px;
+ }
+ 
+ .menu ul li a {
+     color: #fff;
+     text-decoration: none;
+     line-height: 70px;
+     font-size: 18px;
+     padding: 8px 15px;
+ }
+ 
+ .menu ul li a:hover {
+     color: cyan;
+     border-radius: 5px;
+     box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+ }
+ 
+ .icon,
+ #btn {
+     display: none;
+ }
+ /* Fin Menu */
+ /* banner ciclistas */
+ 
+ .fondo img {
+     width: 100%;
+     height: auto;
+ }
+ /* Fin banner ciclista */
+ 
+ h1,
+ h2,
+ h3,
+ p {
+     text-align: center;
+     color: #fff;
+ }
+ /* Article */
+ 
+ .section {
+     float: center;
+     margin: 10px 45px 45px 45px;
+     padding: 25px;
+     color: #FFF;
+     font-size: 18px;
+     box-shadow: 0 0 5px #33ffff;
+ }
+ /* Fin Article */
+ /* Tipos con Grid*/
+ 
+ .tipos {
+     margin: 15px;
+     display: grid;
+     grid-template-columns: 33% 33% 33%;
+     column-gap: 10px;
+     grid-row-gap: 20px;
+ }
+ 
+ .tipos div {
      padding: 15px;
-    margin: 5px;;
-     box-shadow: 0 0 5px #33ffff;    
-    
-}
-.tipos p{
-    
-    text-align: center;
-    color: #fff;
-    
-}
-.tipos h3{
-    color: #5DADE2;
-}
-.tipos ul li{
-    margin-top: 10px;
-    margin: 5px;
-    text-align: center;
-    color: #5DADE2;
-    list-style: none;
-    
-}
-.e4{
-    grid-column: 1/4;
-}
-
-
-.tipos img{
-    width: 50%;
-    height: 80%;
-    padding: 5px;
-}
-
-.videos{
-margin: 15px;
-
-
-    width: 80%;
-    height: 300px;
-   
-}
-
-
-/* Fin Grid*/
-
-
-/*Slider*/
-.slider {
-	width: 95%;
-	margin: auto;
-	overflow: hidden;
-}
-
-.slider ul {
-    margin-top: 20px;
-	display: flex;
-	padding: 0;
-	width: 300%;
-	animation: cambio 25s infinite alternate linear;
-}
-
-.slider li {
-	width: 100%;
-	list-style: none;
-}
-
-.slider img {
-    box-shadow: 0 0 15px #33ffff; 
-    border-radius: 30px;
-    float: center;
-	width: 60%;
-}
-
-@keyframes cambio {
-
-     0%,15%{margin-left: 0; }
-
-    50%,65% {margin-left: -100%;}
-
-
-    85%,100% {margin-left: -200%;}  
-	
-}
-/*Fin Slider*/
-
-/*Formulario*/
-
-.formulario {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-.contact {
-    text-align: center;
-    font-size: 3em;
-}
-.contacto {
-    margin: 20px;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-}
-
-.contacto > * {
-    padding: 1em;
-
-}
-
-.contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-
-
-.contact-form form label {
-    display: inline-block;
-}
-
-.contact-form form p {
-    margin: 0;
-    padding: 1em;
-    color: #fff;
-}
-
-
- .block {
-    grid-column: 1 / 3;
-}
-
-
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-    width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid #33ffff;
-}
-
-.contact-form form button {
-    color: #000;
-    font-size: 18px;
-    background: #6CA0D1;
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
-    border-radius: 15px;
-}
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-    background: #235ddf;
-    color: #fff;
-    transition: background-color 0.5s ease-out;
-    outline: 0;
-   
-}
-
-
-
-.info {
-    background: #3D3A3A;
-}
-
-.info h4,
-.info ul, 
-.info p,
-.info ul li i,
-.info ul li {
-    text-align: center;
-    margin: 0 0 0.5rem 0;
-    background: #3D3A3A;
-    color: #fff;
-    list-style: none;
-    padding: 0;
-    
-}
-
-/*Fin Formulario*/
-
-
-/*  Footer */
-footer{
-   background-color: #000;
-    bottom: 0;
-    left: 0;
-    
-    
-}
-footer p{
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 15px;
-    text-decoration: none; 
-}
-.social{
-    
-    background-color: #000;
-    text-align: center;
-    
-}
-.social ul{
-    display: inline;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    padding: 15px;
-    text-decoration: none;
-}
-.social ul li{
-     display: inline;
-    text-align: center;
-    background-color: #000;
-}
-.social ul li a{
-    color: #fff;
-    margin: 0 15px 15px 15px;
-    box-shadow: 0 0 30px #33ffff; 
-    border-radius: 50%;
-    font-size: 25px;
-    text-decoration: none;
-}
-.fa-facebook:hover{
-    box-shadow: 0 0 30px #3b5998; 
-    color: #3b5998;
-    font-size: 30px;
-}
-.fa-instagram:hover{
-    margin-bottom: 20px;
-    box-shadow: 0 0 30px #FE3FB6; 
-    color: #FE3FB6;
-    font-size: 30px;
-}
-.fa-whatsapp:hover{
-    box-shadow: 0 0 30px #4dc247; 
-    color: #4dc247;
-    font-size: 30px;
-}
-/*Fin Footer*/
-
-
-@media(min-width: 700px){
-    
-    .contacto {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-}
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/* Styles */
-    
-   .tipos{
-    margin:15px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap:10px;
-    grid-row-gap:  20px;
-       
-}
-.tipos div{
-     padding: 5px;
-    margin: 5px;
-     box-shadow: 0 0 5px #33ffff;    
-    
-}
-
-.tipos h3{
-    color: #5DADE2;
-}
-    .e4{
-        grid-column: 1/3;
-    }
+     margin: 5px;
+     ;
+     box-shadow: 0 0 5px #33ffff;
+ }
  
-    
-
-
-.tipos img{
-    width: 50%;
-    height: 80%;
-    padding: 5px;
-}
-}
-
-
-
-@media all and (max-width: 960px){
-    
-    .menu .logo{
-    float: left;
-    color: #fff;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 70px;
-    padding-left: 20px;
-    }
-    .menu ul{
-        margin-right: 0px;
-        float: inherit;
-        position: absolute;
-        z-index: 1;
-        margin-top: 70px;
-        margin-right: 20px;
-        box-shadow: 0 0 5px #33ffff;
-        border-radius: 5px;
-       
-    }
-    .menu ul li{
-        display: block;
-        width: 80%;
-        
-    }
-  
-    .icon{
-        display: block;
-        color: #fff;
-        position: absolute;
-        right:40px;
-        line-height: 70px;
-        font-size: 25px;
-        cursor: pointer;   
-    }
-    
- .show + a, .menu ul{
-        display: none;
-    }
-    [id^=btn]:checked + ul{
-        display: block;
-    }
-
-    
-    .tipos{
-        grid-row-gap:10px;
-        
-    }
-    .tipos div{
-        margin-right: 20px;
-    }
-    
-    .e1, .e2, .e3{
-        grid-column: 1/4;
-    }
-    
-    .contacto {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .info ul li{
-        padding: 1px;
-    }
-    
-   
-}
+ .tipos p {
+     text-align: center;
+     color: #fff;
+ }
+ 
+ .tipos h3 {
+     color: #5DADE2;
+ }
+ 
+ .tipos ul li {
+     margin-top: 10px;
+     margin: 5px;
+     text-align: center;
+     color: #5DADE2;
+     list-style: none;
+ }
+ 
+ .e4 {
+     grid-column: 1/4;
+ }
+ 
+ .tipos img {
+     width: 50%;
+     height: 80%;
+     padding: 5px;
+ }
+ 
+ .videos {
+     margin: 15px;
+     width: 80%;
+     height: 300px;
+ }
+ /* Fin Grid*/
+ /*Slider*/
+ 
+ .slider {
+     width: 95%;
+     margin: auto;
+     overflow: hidden;
+ }
+ 
+ .slider ul {
+     margin-top: 20px;
+     display: flex;
+     padding: 0;
+     width: 300%;
+     animation: cambio 25s infinite alternate linear;
+ }
+ 
+ .slider li {
+     width: 100%;
+     list-style: none;
+ }
+ 
+ .slider img {
+     box-shadow: 0 0 15px #33ffff;
+     border-radius: 30px;
+     float: center;
+     width: 60%;
+ }
+ 
+ @keyframes cambio {
+     0%,
+     15% {
+         margin-left: 0;
+     }
+     50%,
+     65% {
+         margin-left: -100%;
+     }
+     85%,
+     100% {
+         margin-left: -200%;
+     }
+ }
+ /*Fin Slider*/
+ /*Formulario*/
+ 
+ .formulario {
+     max-width: 1170px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1.5em;
+ }
+ 
+ .contact {
+     text-align: center;
+     font-size: 3em;
+ }
+ 
+ .contacto {
+     margin: 20px;
+     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+ }
+ 
+ .contacto>* {
+     padding: 1em;
+ }
+ 
+ .contact-form form {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+ 
+ .contact-form form label {
+     display: inline-block;
+ }
+ 
+ .contact-form form p {
+     margin: 0;
+     padding: 1em;
+     color: #fff;
+ }
+ 
+ .block {
+     grid-column: 1 / 3;
+ }
+ 
+ .contact-form form button,
+ .contact-form form input,
+ .contact-form form textarea {
+     width: 100%;
+     padding: .7em;
+     border: none;
+     background: none;
+     outline: 0;
+     color: #fff;
+     border-bottom: 1px solid #33ffff;
+ }
+ 
+ .contact-form form button {
+     color: #000;
+     font-size: 18px;
+     background: #6CA0D1;
+     border: 0;
+     text-transform: uppercase;
+     padding: 1em;
+     border-radius: 15px;
+ }
+ 
+ .contact-form form button:hover,
+ .contact-form form button:focus {
+     background: #235ddf;
+     color: #fff;
+     transition: background-color 0.5s ease-out;
+     outline: 0;
+ }
+ 
+ .info {
+     background: #3D3A3A;
+ }
+ 
+ .info h4,
+ .info ul,
+ .info p,
+ .info ul li i,
+ .info ul li {
+     text-align: center;
+     margin: 0 0 0.5rem 0;
+     background: #3D3A3A;
+     color: #fff;
+     list-style: none;
+     padding: 0;
+ }
+ /*Fin Formulario*/
+ /*Reloj*/
+ 
+ #clock {
+     font-family: 'Share Tech Mono', monospace;
+     color: #ffffff;
+     text-align: center;
+     left: 50%;
+     top: 50%;
+     /*transform: translate(-50%, -50%);*/
+     color: #daf6ff;
+     text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+ }
+ 
+ .time {
+     letter-spacing: 0.05em;
+     font-size: 80px;
+     padding: 5px 0;
+ }
+ 
+ .date {
+     letter-spacing: 0.1em;
+     font-size: 24px;
+ }
+ 
+ .text {
+     letter-spacing: 0.1em;
+     font-size: 12px;
+     padding: 20px 0 0;
+ }
+ /*Fin Reloj*/
+ /*  Footer */
+ 
+ footer {
+     background-color: #000;
+     bottom: 0;
+     left: 0;
+ }
+ 
+ footer p {
+     text-align: center;
+     background-color: #000;
+     color: #fff;
+     padding: 15px;
+     text-decoration: none;
+ }
+ 
+ .social {
+     background-color: #000;
+     text-align: center;
+ }
+ 
+ .social ul {
+     display: inline;
+     text-align: center;
+     background-color: #000;
+     color: #fff;
+     padding: 15px;
+     text-decoration: none;
+ }
+ 
+ .social ul li {
+     display: inline;
+     text-align: center;
+     background-color: #000;
+ }
+ 
+ .social ul li a {
+     color: #fff;
+     margin: 0 15px 15px 15px;
+     box-shadow: 0 0 30px #33ffff;
+     border-radius: 50%;
+     font-size: 25px;
+     text-decoration: none;
+ }
+ 
+ .fa-facebook:hover {
+     box-shadow: 0 0 30px #3b5998;
+     color: #3b5998;
+     font-size: 30px;
+ }
+ 
+ .fa-instagram:hover {
+     margin-bottom: 20px;
+     box-shadow: 0 0 30px #FE3FB6;
+     color: #FE3FB6;
+     font-size: 30px;
+ }
+ 
+ .fa-whatsapp:hover {
+     box-shadow: 0 0 30px #4dc247;
+     color: #4dc247;
+     font-size: 30px;
+ }
+ /*Fin Footer*/
+ 
+ @media(min-width: 700px) {
+     .contacto {
+         display: grid;
+         grid-template-columns: 2fr 1fr;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+     /* Styles */
+     .tipos {
+         margin: 15px;
+         display: grid;
+         grid-template-columns: 50% 50%;
+         column-gap: 10px;
+         grid-row-gap: 20px;
+     }
+     .tipos div {
+         padding: 5px;
+         margin: 5px;
+         box-shadow: 0 0 5px #33ffff;
+     }
+     .tipos h3 {
+         color: #5DADE2;
+     }
+     .e4 {
+         grid-column: 1/3;
+     }
+     .tipos img {
+         width: 50%;
+         height: 80%;
+         padding: 5px;
+     }
+ }
+ 
+ @media all and (max-width: 960px) {
+     .menu .logo {
+         float: left;
+         color: #fff;
+         font-size: 27px;
+         font-weight: 600;
+         line-height: 70px;
+         padding-left: 20px;
+     }
+     .menu ul {
+         margin-right: 0px;
+         float: inherit;
+         position: absolute;
+         z-index: 1;
+         margin-top: 70px;
+         margin-right: 20px;
+         box-shadow: 0 0 5px #33ffff;
+         border-radius: 5px;
+     }
+     .menu ul li {
+         display: block;
+         width: 80%;
+     }
+     .icon {
+         display: block;
+         color: #fff;
+         position: absolute;
+         right: 40px;
+         line-height: 70px;
+         font-size: 25px;
+         cursor: pointer;
+     }
+     .show+a,
+     .menu ul {
+         display: none;
+     }
+     [id^=btn]:checked+ul {
+         display: block;
+     }
+     .tipos {
+         grid-row-gap: 10px;
+     }
+     .tipos div {
+         margin-right: 20px;
+     }
+     .e1,
+     .e2,
+     .e3 {
+         grid-column: 1/4;
+     }
+     .contacto {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     .info ul li {
+         padding: 1px;
+     }
+ }
